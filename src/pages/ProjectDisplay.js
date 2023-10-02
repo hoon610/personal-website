@@ -14,7 +14,7 @@ function ProjectDisplay() {
   return (
     <motion.div animate={{ y: 0 }} initial={{ y: -200 }} className="project">
       <h1>{project.name}</h1>
-      <img src={project.image} />
+      <img alt="Project showcase" src={project.image} />
       <p className="skillBox">
         <ul>
           {skillsArray.map((skill, index) => (
