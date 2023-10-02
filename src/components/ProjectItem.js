@@ -1,18 +1,33 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import { motion } from "framer-motion";
 
-function ProjectItem({ image, name, id }) {
+function ProjectItem({ image, name, id, skills }) {
   const navigate = useNavigate();
+  const skillsArray = skills.split(",").map((skill) => skill.trim());
+
   return (
-    <div
+    <motion.div
+      animate={{ scale: 1 }}
+      initial={{ scale: 0.8 }}
       className="projectItem"
       onClick={() => {
         navigate("/projects/" + id);
+        window.scrollTo(0, 0); // Scroll to the top
       }}
     >
       <div style={{ backgroundImage: `url(${image})` }} className="bgImage" />
       <h1>{name}</h1>
-    </div>
+      <p>
+        <ul>
+          {skillsArray.map((skill, index) => (
+            <li className="projectSkill" key={index}>
+              {skill}
+            </li>
+          ))}
+        </ul>
+      </p>
+    </motion.div>
   );
 }
 

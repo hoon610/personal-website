@@ -7,8 +7,20 @@ function Footer() {
   return (
     <div className="footer">
       <div className="socialMedia">
-        <GitHubIcon />
-        <LinkedInIcon />
+        <a
+          href="https://github.com/hoon610"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <GitHubIcon />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/byounghoon-kang-7b048a239/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <LinkedInIcon />
+        </a>
       </div>
       <p> &copy; 2023</p>
     </div>

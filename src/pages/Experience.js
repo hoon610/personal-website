@@ -11,11 +11,11 @@ import BiotechIcon from "@mui/icons-material/Biotech";
 function Experience() {
   return (
     <div className="experience">
-      <VerticalTimeline lineColor="#3e497a">
+      <VerticalTimeline lineColor="#D9FFF5">
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2015 - 2019"
-          iconStyle={{ background: "#3e497a", color: "#fff" }}
+          iconStyle={{ background: "#AAD2BA", color: "#1D1E18" }}
           icon={<SchoolIcon></SchoolIcon>}
         >
           <h3 className="vertical-timeline-element-title">
@@ -24,13 +24,15 @@ function Experience() {
           <p>B.S. in Biological Sciences</p>
           <p>
             Launched and maintained a digital database of physical and GIS-based
-            cartographical items in the ASU Map and Geospatial Hub
+            cartographical items in the ASU Map and Geospatial Hub. Spear-headed
+            four projects related to creating and maintaing new online databases
+            and services.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2019 - 2020"
-          iconStyle={{ background: "#3e497a", color: "#fff" }}
+          iconStyle={{ background: "#AAD2BA", color: "#1D1E18" }}
           icon={<BiotechIcon></BiotechIcon>}
         >
           <h3 className="vertical-timeline-element-title">
@@ -45,7 +47,7 @@ function Experience() {
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date="2020 - 2023"
-          iconStyle={{ background: "#3e497a", color: "#fff" }}
+          iconStyle={{ background: "#AAD2BA", color: "#1D1E18" }}
           icon={<SchoolIcon></SchoolIcon>}
         >
           <h3 className="vertical-timeline-element-title">

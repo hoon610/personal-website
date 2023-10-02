@@ -1,0 +1,22 @@
+import CALgif from "../assets/CALgif.gif";
+import EASgif from "../assets/EASgif.gif";
+
+{
+    name: "Calculator App Created in JavaScript and HTML/CSS",
+    image: CALgif,
+    skills: "JavaScript, HTML/CSS",
+    github: "https://github.com/hoon610/calculatorapp",
+    link: "https://hoon610.github.io/calculatorapp/",
+    summary: "A calculator app built in JavaScript",
+    documentation: "",
+  },
+  {
+    name: "Etch A Sketch Created in JavaScript and HTML/CSS",
+    image: EASgif,
+    skills: "JavaScript, HTML/CSS",
+    github: "https://github.com/hoon610/etchasketch",
+    link: "https://hoon610.github.io/etchasketch/",
+    summary:
+      "A simple etch a sketch website built purely with JavaScript. Allows for resizing of board and randomization of colors.",
+    documentation: "",
+  },

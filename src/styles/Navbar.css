@@ -1,7 +1,10 @@
 .navbar {
     width: 100%;
     height: 100px;
-    background: #21325e;
+    background: #1D1E18;
+    position: sticky;
+  top: 0;
+  z-index: 10;
   }
   
   .links {
@@ -11,13 +14,15 @@
     align-items: center;
     justify-content: center;
     color: white;
+    gap: 40px;
   }
   
   .navbar a {
     color: white;
     text-decoration: none;
     margin: 20px;
-    font-size: 25px;
+    font-size: 28px;
+    font-weight: 100;
   }
   
   .toggleButton {

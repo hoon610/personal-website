@@ -22,9 +22,31 @@ function Navbar() {
         </button>
       </div>
       <div className="links">
-        <Link to="/">Home</Link>
-        <Link to="/projects">Projects</Link>
-        <Link to="/experience">Experience</Link>
+        <Link
+          className="icon"
+          to="/"
+          onClick={() => {
+            window.scrollTo(0, 0);
+          }}
+        >
+          Home
+        </Link>
+        <Link
+          to="/projects"
+          onClick={() => {
+            window.scrollTo(0, 0);
+          }}
+        >
+          Projects
+        </Link>
+        <Link
+          to="/experience"
+          onClick={() => {
+            window.scrollTo(0, 0);
+          }}
+        >
+          Experience
+        </Link>
       </div>
     </div>
   );
