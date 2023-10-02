@@ -6,8 +6,11 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import ProjectDisplay from "./pages/ProjectDisplay";
 import ProjectsPreloader from "./ProjectsPreloader"; // Import the preloader
-
+import React, { useEffect } from "react";
 function App() {
+  useEffect(() => {
+    document.title = "Hoon Kang";
+  }, []);
   return (
     <div className="App">
       <Router>
