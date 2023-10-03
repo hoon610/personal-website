@@ -57,7 +57,7 @@
   flex-wrap: wrap;
   gap: 10px; }
 
-  .links{
+  .project > .links{
     margin-top: 10px;
   }
   p.summary{
