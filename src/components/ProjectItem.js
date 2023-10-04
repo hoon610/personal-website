@@ -13,7 +13,7 @@ function ProjectItem({ image, name, id, skills }) {
       className="projectItem"
       onClick={() => {
         navigate("/projects/" + id);
-        window.scrollTo(0, 0); // Scroll to the top
+        window.scrollTo(0, 0); 
       }}
     >
       <div style={{ backgroundImage: `url(${image})` }} className="bgImage" />

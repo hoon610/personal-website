@@ -51,7 +51,7 @@ export const ProjectList = [
   },
 
   {
-    name: "Facebook Clone made in ReactJS and Firebase",
+    name: "Facebook Clone built in ReactJS and Firebase",
     image: FCimg,
     skills: "React, Node.js, Firebase, MongoDB, HTML/CSS",
     github: "https://github.com/hoon610/fb-clone",

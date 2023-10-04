@@ -12,8 +12,8 @@ function Home() {
         <h2>Hi, My Name is Hoon</h2>
         <div className="prompt">
           <p>
-            I am a myrmecologist (ants!) turned software engineer with a passion
-            for problem-solving
+            I am a myrmecologist (ants!) turned software developer with a
+            passion for problem-solving
           </p>
           <a
             href="https://www.linkedin.com/in/byounghoon-kang-7b048a239/"
