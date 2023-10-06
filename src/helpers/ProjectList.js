@@ -55,7 +55,7 @@ export const ProjectList = [
     image: FCimg,
     skills: "React, Node.js, Firebase, MongoDB, HTML/CSS",
     github: "https://github.com/hoon610/fb-clone",
-    link: "https://facebook-clone-e6df9.web.app/",
+    link: "https://hoonbook.netlify.app/",
     summary:
       "A Facebook clone built in React and Firebase. View in the link above using Google Authentication or as a guest user. It might be flagged as a phishing site on your browser for looking too good!",
     documentation: "",
