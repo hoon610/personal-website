@@ -16,7 +16,7 @@ function Home() {
             passion for problem-solving
           </p>
           <a
-            href="https://www.linkedin.com/in/hoon-kang-7b048a239/"
+            href="https://www.linkedin.com/in/hoon-kang-az"
             target="_blank"
             rel="noopener noreferrer"
           >
