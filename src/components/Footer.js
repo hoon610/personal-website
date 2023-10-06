@@ -15,7 +15,7 @@ function Footer() {
           <GitHubIcon />
         </a>
         <a
-          href="https://www.linkedin.com/in/byounghoon-kang-7b048a239/"
+          href="https://www.linkedin.com/in/hoon-kang-7b048a239/"
           target="_blank"
           rel="noopener noreferrer"
         >
