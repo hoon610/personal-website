@@ -68,6 +68,7 @@ export const ProjectList = [
     link: "",
     summary:
       "An endlessly scrolling game inspired by Vampire Survivors built in Unity/C#. The game features an endlessly scrolling world, two weapon classes, XP/leveling, and randomly spawning chests/enemies",
-    documentation: "",
+    documentation:
+      "https://hoonkang.substack.com/p/how-to-create-an-infinitely-scrolling",
   },
 ];
