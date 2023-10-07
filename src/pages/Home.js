@@ -2,6 +2,7 @@ import React from "react";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import EmailIcon from "@mui/icons-material/Email";
+import ArticleIcon from "@mui/icons-material/Article";
 import "../styles/Home.css";
 import { motion } from "framer-motion";
 
@@ -22,6 +23,14 @@ function Home() {
           >
             <LinkedInIcon />
           </a>
+          <a
+            href="https://drive.google.com/file/d/1PPtWROZUSkrRzbW_J4rdpkS6bM55-L8g/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <ArticleIcon />
+          </a>
+
           <a href="mailto:bhoonkang@gmail.com">
             <EmailIcon />
           </a>
