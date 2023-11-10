@@ -24,7 +24,7 @@ function Home() {
             <LinkedInIcon />
           </a>
           <a
-            href="https://drive.google.com/file/d/1x5fs6Ctuvf3jZlvbAErI3RSEyFvbVVUf/view?usp=sharing"
+            href="https://drive.google.com/file/d/1aDf3V5BgtaeIn2TjNXIGygxg_014TCA7/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >

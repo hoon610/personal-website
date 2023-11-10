@@ -53,7 +53,7 @@ function Experience() {
           <h3 className="vertical-timeline-element-title">
             University of Massachussets Lowell
           </h3>
-          <p>M.S. in Bioinformatics</p>
+          <p>M.S. in Computational Biology</p>
           <p>
             Published two peer-reviewed scientific papers on the nest
             architecture of subterranean ant nests. Collected raw data
