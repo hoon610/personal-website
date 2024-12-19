@@ -13,7 +13,7 @@ function Home() {
         <h2>Hi, My Name is Hoon</h2>
         <div className="prompt">
           <p>
-            I am a myrmecologist (ants!) turned software developer with a
+            I am a myrmecologist (ants) turned software engineer with a
             passion for problem-solving
           </p>
           <a
@@ -24,7 +24,7 @@ function Home() {
             <LinkedInIcon />
           </a>
           <a
-            href="https://drive.google.com/file/d/1aDf3V5BgtaeIn2TjNXIGygxg_014TCA7/view?usp=sharing"
+            href="https://drive.google.com/file/d/1yHsLVhMSge7rrfBlquR45-_xgU5otqSc/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -48,13 +48,12 @@ function Home() {
         <ol className="list">
           <li className="item">
             <h2>Languages</h2>
-            <span>Python, TypeScript/JavaScript, R, HTML/CSS, C#</span>
+            <span>TypeScript/JavaScript, Pythonm, R, HTML/CSS, C#</span>
           </li>
           <li className="item">
             <h2>Tools and Technologies</h2>
             <span>
-              Git, React, TensorFlow, Node.js, ArcGIS, AWS S3, Keras, MongoDB,
-              Firebase
+              Git, React, Node.js, GCP, AWS, Firebase, Docker
             </span>
           </li>
         </ol>

@@ -15,8 +15,9 @@
     font-weight: bolder;
   }
   .projects > h1 {
-    color: #D9FFF5;
+    color: white;
     margin-top: 0;
+    font-size: 50px;
   }
   
   .projectList {

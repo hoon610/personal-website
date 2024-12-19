@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 function Projects() {
   return (
     <motion.div animate={{ y: 60 }} initial={{ y: -70 }} className="projects">
-      <h1>Projects</h1>
+      <h1 >Projects</h1>
       <div className="projectList">
         {ProjectList.map((project, idx) => {
           return (
