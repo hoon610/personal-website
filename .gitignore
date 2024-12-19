@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+collect-js.ps1
+js-paths-and-code.txt
