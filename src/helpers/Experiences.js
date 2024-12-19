@@ -8,7 +8,7 @@ export const experiences = [
       "Maintained multiple internal applications using React, Firebase, TypeScript, and Google Cloud Platform",
       "Coordinated enterprise-wide migration from Yardi to Entrata across 100+ properties, developing automated data migration scripts and cloud functions in GCP"
     ],
-    skills: ["React", "Firebase", "TypeScript", "GCP", "Cloud Functions", "Data Migration"]
+    skills: ["React", "Firebase", "TypeScript", "GCP", "Cloud Functions", "SQL"]
   },
   {
     role: "Founder/Lead Developer",
