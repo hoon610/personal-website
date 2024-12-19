@@ -18,6 +18,13 @@ const MobileMenu = ({ isOpen, onClose, scrollToSection, activeSection }) => {
         `}
         onClick={e => e.stopPropagation()}
       >
+      <button
+        onClick={onClose}
+        className="absolute top-4 right-4 text-gray-400 hover:text-gray-100 p-2"
+        aria-label="Close menu"
+      >
+        <X size={24} />
+      </button>
         <div className="flex flex-col space-y-4 p-4 pt-16">
           <NavButton 
             onClick={() => {
@@ -60,10 +67,10 @@ const Navbar = ({ scrolled, activeSection, scrollToSection }) => {
 
   return (
     <>
-      <nav className={`
-        fixed top-0 w-full z-50 transition-all duration-300
-        ${scrolled ? 'bg-gray-900/95 backdrop-blur-sm shadow-lg' : 'bg-transparent'}
-      `}>
+    <nav className={`
+      fixed top-0 w-full z-40 transition-all duration-300
+      ${scrolled ? 'bg-gray-900/95 backdrop-blur-sm shadow-lg' : 'bg-transparent'}
+    `}>
         <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between relative">
           <button 
             onClick={() => scrollToSection('home')}
@@ -99,9 +106,9 @@ const Navbar = ({ scrolled, activeSection, scrollToSection }) => {
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               className="text-gray-400 hover:text-gray-100 p-2 -mr-2"
-              aria-label={isMobileMenuOpen ? "Close menu" : "Open menu"}
+              aria-label="Open menu"
             >
-              {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+              <Menu size={24} />
             </button>
           </div>
         </div>
