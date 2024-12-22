@@ -7,20 +7,20 @@ const HomeSection = () => {
   return (
     <section id="home" className="min-h-screen pt-16">
       <div className="flex flex-col items-center justify-center min-h-[80vh]">
-        <div className="max-w-4xl mx-auto px-4 text-center">
-          <h1 className="text-5xl font-bold mb-6 text-white">Hi, I'm Hoon</h1>
-          <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
+        <div className="max-w-4xl px-4 mx-auto text-center">
+          <h1 className="mb-6 text-5xl font-bold text-white">Hi, I'm Hoon</h1>
+          <p className="max-w-2xl mx-auto mb-8 text-xl text-gray-300">
             A myrmecologist turned software engineer with a passion for problem-solving
           </p>
           
-          <div className="flex justify-center space-x-6 mb-12">
+          <div className="flex justify-center mb-12 space-x-6">
             <SocialLink href="https://www.linkedin.com/in/hoon-kang-az" icon={<LinkedIn />} />
-            <SocialLink href="https://drive.google.com/file/d/1yHsLVhMSge7rrfBlquR45-_xgU5otqSc/view?usp=sharing" icon={<Article />} />
+            <SocialLink href="https://drive.google.com/file/d/1VsU-Nbfk2RaIbVrrXP5F6qYLmuV9uQqq/view?usp=sharing" icon={<Article />} />
             <SocialLink href="mailto:bhoonkang@gmail.com" icon={<Email />} />
             <SocialLink href="https://github.com/hoon610" icon={<GitHub />} />
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8 mt-16">
+          <div className="grid gap-8 mt-16 md:grid-cols-2">
             <SkillCard 
               title="Languages"
               skills={["TypeScript/JavaScript", "Python", "R", "HTML/CSS", "C#"]}
