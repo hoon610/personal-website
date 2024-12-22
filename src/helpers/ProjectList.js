@@ -35,7 +35,7 @@ export const ProjectList = [
     github: "",
     link: "https://geodata-asu.hub.arcgis.com/apps/asu::1951-navajo-project-aerial-photos/about",
     summary:
-      "Digitized and catalogued a set of aerial photographs of Navajo County, Arizona using an automated data pipeline. COntributed to a web index in ArcGIS deployed to a ready to use API.",
+      "Digitized and catalogued a set of aerial photographs of Navajo County, Arizona using an automated data pipeline. Contributed to a web index in ArcGIS deployed to a ready to use API.",
     documentation: "",
   },
   {
