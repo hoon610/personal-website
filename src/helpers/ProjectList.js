@@ -9,11 +9,11 @@ import ThreeDgif from "../assets/3Dgif.gif";
 export const ProjectList = [
 
   {
-    name: "OddClover Sportsbetting Analytics",
+    name: "Sportsbetting Analytics Site",
     image: Oddclovergif,
     skills: "TypeScript, React, Node.js, AWS, GCP, HTML/CSS",
     github: "",
-    link: "https://oddclover.com",
+    link: "https://bit.ly/3BMGhjj",
     summary: "Developed a comprehensive sports betting analytics platform that combines real-time odds aggregation with predictive modeling. Built automated data pipelines to collect and analyze betting odds across multiple sports books, implementing an arbitrage calculator to identify profitable betting opportunities. Integrated Stripe payment processing for premium subscription services. The platform successfully serves 50+ monthly active users with real-time betting analytics and predictions.",
     documentation: "",
   },
