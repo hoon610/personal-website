@@ -15,7 +15,7 @@ const HomeSection = () => {
           
           <div className="flex justify-center mb-12 space-x-6">
             <SocialLink href="https://www.linkedin.com/in/hoon-kang-az" icon={<LinkedIn />} />
-            <SocialLink href="https://drive.google.com/file/d/1VsU-Nbfk2RaIbVrrXP5F6qYLmuV9uQqq/view?usp=sharing" icon={<Article />} />
+            <SocialLink href="https://drive.google.com/file/d/1HZmpFTYLKMLpKI_1vgw7c0h-K2IISEDU/view?usp=sharing" icon={<Article />} />
             <SocialLink href="mailto:bhoonkang@gmail.com" icon={<Email />} />
             <SocialLink href="https://github.com/hoon610" icon={<GitHub />} />
           </div>
