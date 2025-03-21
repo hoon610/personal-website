@@ -22,7 +22,7 @@ export const experiences = [
     skills: ["AWS", "Python", "Node.js", "React", "Stripe", "Statistical Modeling"]
   },
   {
-    role: "Computational Research Assistant",
+    role: "Bioinformatics Software Developer",
     company: "University of Massachusetts Lowell",
     date: "Sep 2020 - Dec 2023",
     description: [
