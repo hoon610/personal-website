@@ -1,7 +1,9 @@
-# Static one-file portfolio: a single self-contained index.html plus favicon/
-# PWA assets at the root. No build step — publish the repo root as-is.
-# The explicit empty command overrides any old "npm run build" left in the
-# Netlify UI (the Create React App project was removed).
+# Static one-file portfolio: index.html + favicon/PWA assets + images/js/fonts
+# at the repo root. There is NO build step.
+#
+# `command` is an explicit no-op so it overrides any old "npm run build" left
+# in the Netlify UI. `publish = "."` publishes the repo root as-is (the old
+# Create React App published to "build/", which no longer exists).
 [build]
-  command = "echo 'static site — nothing to build'"
+  command = "echo no build step"
   publish = "."
